@@ -1,0 +1,7 @@
+An Accessory for ExpressionEngine which allows you to save the entry you are currently editing (via the Publish or Edit pages) by using the CTRL+S key combo.
+
+What CTRL+S? What about COMMAND+S?
+
+CTRL+S is more reliable and provides better cross browser compatibility. If you want to add COMMAND+S though, feel free to fork this puppy and send me a pull request; I'll happily add it if it works reliably.
+
+Hat tip to Denza the great add-on "Ctrl+S to Save Template" which inspired this one. http://devot-ee.com/add-ons/ctrls-to-save-template 

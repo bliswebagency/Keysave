@@ -34,14 +34,11 @@ class Ctrlstpl_acc {
          $("#accessoryTabs").find("a.ctrlstpl").parent("li").remove();
 		
 		var isCtrl = false;
-		$(document).keyup(function (e) {
-			if(e.which == 17 || e.which == 224) isCtrl=false;
-		}).keydown(function (e) {
+		$(document).keyup(function (e) { if(e.which == 17 || e.which == 224) isCtrl=false; }).keydown(function (e) {
 
 			if(e.which == 17 || e.which == 224) isCtrl=true;
 
 			if(e.which == 79 && isCtrl == true) {
-				//run code for CTRL+S -- ie, save!
 				$('#submit_button').trigger('click');
 				return false;
 			}
@@ -51,7 +48,7 @@ END;
 		
 		if($this->EE->input->get('D') == 'cp' AND $this->EE->input->get('C') == 'addons_accessories')
         {
-           $this->EE->db->where('class', 'Ctrlstpl_acc');
+           $this->EE->db->where('class', 'Keysave_acc');
            $this->EE->db->update('accessories', array('controllers' => 'design'));
         }
 		
