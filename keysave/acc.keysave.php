@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Ctrlstpl_acc {
+class Keysave_acc {
 
 	var $name		= 'Ctrl+s hot key for Publish / Edit';
 	var $id			= 'keysave';
@@ -30,7 +30,7 @@ class Ctrlstpl_acc {
 
 		$str = <<<END
 		
-		 $("#ctrlstpl.accessory").remove();
+		 $("#keysave.accessory").remove();
          $("#accessoryTabs").find("a.ctrlstpl").parent("li").remove();
 		
 		var isCtrl = false;
