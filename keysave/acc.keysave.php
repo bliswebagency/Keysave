@@ -49,7 +49,7 @@ END;
 		if($this->EE->input->get('D') == 'cp' AND $this->EE->input->get('C') == 'addons_accessories')
         {
            $this->EE->db->where('class', 'Keysave_acc');
-           $this->EE->db->update('accessories', array('controllers' => 'design'));
+           $this->EE->db->update('accessories', array('controllers' => 'content'));
         }
 		
 	}
