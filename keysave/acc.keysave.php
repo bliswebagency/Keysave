@@ -2,9 +2,9 @@
 
 class Keysave_acc {
 
-	var $name		= 'Ctrl+s hot key for Publish / Edit';
+	var $name		= 'Keysave: Ctrl+o hot key for Publish / Edit';
 	var $id			= 'keysave';
-	var $version		= '1.0';
+	var $version		= '1.0.1';
 	var $description	= 'Because both Mac and Windows have a CTRL key';
 	var $sections		= array();
 	
